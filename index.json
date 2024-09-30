@@ -13,6 +13,32 @@
                     }
                 }
             }
+        },
+        {
+            "Name": "Blasphemer",
+            "Description": "Blasphemer aims to create a free content package for the Heretic engine, with a theme of metal-inspired dark fantasy.",
+            "Versions": {
+                "0.1.8": {
+                    "Url": "https://github.com/Blasphemer/blasphemer/releases/download/v0.1.8/blasphem-0.1.8.zip",
+                    "InstallType": "Zip",
+                    "InstallTypeZipFileNames": {
+                        "blasphem.wad": "blasphem.wad"
+                    }
+                }
+            }
+        },
+        {
+            "Name": "Hacx",
+            "Description": "HACX is an action filled DOOM Engine game. The story is set in the near future, where you'll find yourself engrossed in an international blastfest. Wield weapons of mass destruction from China to Paris to combat a devilish artificial intelligence and its hordes of loyal fanatics. Can you handle it, hacker?",
+            "Versions": {
+                "1.2": {
+                    "Url": "http://www.drnostromo.com/hacx/files/hacx12.zip",
+                    "InstallType": "Zip",
+                    "InstallTypeZipFileNames": {
+                        "HACX.WAD": "HACX.WAD"
+                    }
+                }
+            }
         }
     ],
     "Files": [
