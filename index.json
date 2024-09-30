@@ -1,0 +1,16 @@
+{
+    "Files": [
+        {
+            "Name": "Freedoom",
+            "Version": "0.13.0",
+            "Url": "https://github.com/freedoom/freedoom/releases/download/v0.13.0/freedoom-0.13.0.zip",
+            "Type": "IWAD",
+            "InstallType": "Zip",
+            "InstallTypeZipFileNames": {
+                "freedoom1.wad": "freedoom-0.13.0/freedoom1.wad",
+                "freedoom2.wad": "freedoom-0.13.0/freedoom2.wad" 
+            },
+            "Description": "The Freedoom project aims to create a complete, free content first person shooter game, but Freedoom by itself is just the raw material for a game."
+        }
+    ]
+}
