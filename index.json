@@ -1,8 +1,7 @@
 {
-    "Files": [
+    "IWADs": [
         {
             "Name": "Freedoom",
-            "Type": "IWAD",
             "Description": "The Freedoom project aims to create a complete, free content first person shooter game, but Freedoom by itself is just the raw material for a game.",
             "Versions": {
                 "0.13.0": {
@@ -14,10 +13,11 @@
                     }
                 }
             }
-        },
+        }
+    ],
+    "Files": [
         {
             "Name": "Project Brutality",
-            "Type": "File",
             "Description": "Project Brutality is a fast-paced gameplay mod that aims to amp up classic Doom like never before.",
             "Versions": {
                 "0.1.0A": {
