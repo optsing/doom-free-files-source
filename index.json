@@ -93,5 +93,18 @@
                 }
             }
         }
+    ],
+    "Ports": [
+        {
+            "Name": "GZDoom",
+            "Homepage": "https://zdoom.org/index",
+            "Versions": {
+                "4.12.2": {
+                    "Url": "https://github.com/ZDoom/gzdoom/releases/download/g4.12.2/gzdoom-4-12-2-windows.zip",
+                    "Version": "4.12.2",
+                    "Arch": "x64"
+                }
+            }
+        }
     ]
 }
