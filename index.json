@@ -60,6 +60,19 @@
                     }
                 }
             }
+        },
+        {
+            "Name": "Harmony",
+            "Description": "An independent game inspired by 3D shooters from the nineties like Duke Nukem 3D and Doom. Originally released in 2009.",
+            "Versions": {
+                "1.1":{
+                    "Url": "http://www.evil-soft.com/Heretic/harmonyv1.1.zip",
+                    "InstallType": "Zip",
+                    "InstallTypeZipFileNames": {
+                        "Harmony (1.1).wad": "harmony v1.1/harm1.wad"
+                    }
+                }
+            }
         }
     ],
     "Files": [
