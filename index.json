@@ -10,15 +10,15 @@
                     "InstallType": "Zip",
                     "InstallTypeZipFileNames": {
                         "Freedoom Phase 1 (0.13.0).wad": "freedoom-0.13.0/freedoom1.wad",
-                        "Freedoom Phase 2 (0.13.0).wad": "freedoom-0.13.0/freedoom2.wad" 
+                        "Freedoom Phase 2 (0.13.0).wad": "freedoom-0.13.0/freedoom2.wad"
                     }
                 },
-                "0.12.1" : {
+                "0.12.1": {
                     "Url": "https://github.com/freedoom/freedoom/releases/download/v0.12.1/freedoom-0.12.1.zip",
                     "InstallType": "Zip",
                     "InstallTypeZipFileNames": {
                         "Freedoom Phase 1 (0.12.1).wad": "freedoom-0.12.1/freedoom1.wad",
-                        "Freedoom Phase 2 (0.12.1).wad": "freedoom-0.12.1/freedoom2.wad" 
+                        "Freedoom Phase 2 (0.12.1).wad": "freedoom-0.12.1/freedoom2.wad"
                     }
                 }
             }
@@ -56,7 +56,7 @@
             "Description": "Chex Quest 3 is a free, family-friendly first-person shooter video game, developed as the third and final installment in the Chex Quest series. Originally released in 2008, it follows the same format as the earlier games, where players assume the role of a Chex Warrior tasked with defending the galaxy from evil alien creatures called Flemoids.\n\nSet in colorful, cereal-themed environments, players use non-violent weapons like the Zorcher to \"teleport\" enemies away, rather than kill them. The game is a fun, quirky modification of the classic Doom engine, and it's known for its nostalgic appeal and unique marketing history, since the original Chex Quest was first introduced as a free CD-ROM inside boxes of Chex cereal in 1996.",
             "Homepage": "https://www.chexquest3.com",
             "Versions": {
-                "1.4":{
+                "1.4": {
                     "Url": "https://archive.org/download/ChexQuest3_1020/ChexQuest3.zip",
                     "InstallType": "Zip",
                     "InstallTypeZipFileNames": {
@@ -70,7 +70,7 @@
             "Description": "An independent game inspired by 3D shooters from the nineties like Duke Nukem 3D and Doom. Originally released in 2009.",
             "Homepage": "http://heroestospare.com/rabotik/harmony.php",
             "Versions": {
-                "1.1":{
+                "1.1": {
                     "Url": "http://www.evil-soft.com/Heretic/harmonyv1.1.zip",
                     "InstallType": "Zip",
                     "InstallTypeZipFileNames": {
@@ -99,22 +99,125 @@
             "Name": "GZDoom",
             "Homepage": "https://zdoom.org/index",
             "Description": "GZDoom is a modder-friendly OpenGL and Vulkan source port based on the DOOM engine",
+            "Arch": "x64",
             "Versions": {
-                "4.12.2": {
-                    "Url": "https://github.com/ZDoom/gzdoom/releases/download/g4.12.2/gzdoom-4-12-2-windows.zip",
-                    "Version": "4.12.2",
-                    "Arch": "x64"
-                },
-                "4.12.1": {
-                    "Url": "https://github.com/ZDoom/gzdoom/releases/download/g4.12.1/gzdoom-4-12-1-windows.zip",
-                    "Version": "4.12.1",
-                    "Arch": "x64"
-                },
-                "4.12.0": {
-                    "Url": "https://github.com/ZDoom/gzdoom/releases/download/g4.12.0/gzdoom-4-12-0-Windows.zip",
-                    "Version": "4.12.0",
-                    "Arch": "x64"
-                }
+                "4.12.2": "https://github.com/ZDoom/gzdoom/releases/download/g4.12.2/gzdoom-4-12-2-windows.zip",
+                "4.12.1": "https://github.com/ZDoom/gzdoom/releases/download/g4.12.1/gzdoom-4-12-1-windows.zip",
+                "4.12.0": "https://github.com/ZDoom/gzdoom/releases/download/g4.12.0/gzdoom-4-12-0-Windows.zip",
+                "4.11.3": "https://github.com/ZDoom/gzdoom/releases/download/g4.11.3/gzdoom-4-11-3.a.-Windows-64bit.zip",
+                "4.11.2": "https://github.com/ZDoom/gzdoom/releases/download/g4.11.2/gzdoom-4-11-2-Windows-64bit.zip",
+                "4.11.1": "https://github.com/ZDoom/gzdoom/releases/download/g4.11.1/gzdoom-4-11-1-Windows-64bit.zip",
+                "4.11.0": "https://github.com/ZDoom/gzdoom/releases/download/g4.11.0/gzdoom-4-11-0-Windows-64bit.zip",
+                "4.10.0": "https://github.com/ZDoom/gzdoom/releases/download/g4.10.0/gzdoom-4-10-0-Windows-64bit.zip",
+                "4.9.0": "https://github.com/ZDoom/gzdoom/releases/download/g4.9.0/gzdoom-4-9-0-Windows-64bit.zip",
+                "4.8.2": "https://github.com/ZDoom/gzdoom/releases/download/g4.8.2/gzdoom-4-8-2-Windows-64bit.zip",
+                "4.8.1": "https://github.com/ZDoom/gzdoom/releases/download/g4.8.1/gzdoom-4-8-1-Windows-64bit.zip",
+                "4.8.0": "https://github.com/ZDoom/gzdoom/releases/download/g4.8.0/gzdoom-4-8-0-Windows-64bit.zip",
+                "4.7.1": "https://github.com/ZDoom/gzdoom/releases/download/g4.7.1/gzdoom-4-7-1-Windows-64bit.zip",
+                "4.7.0": "https://github.com/ZDoom/gzdoom/releases/download/g4.7.0/gzdoom-4-7-0-Windows-64bit.zip",
+                "4.6.1": "https://github.com/ZDoom/gzdoom/releases/download/g4.6.1/gzdoom-4-6-1-Windows-64bit.zip",
+                "4.6.0": "https://github.com/ZDoom/gzdoom/releases/download/g4.6.0/gzdoom-4-6-0-Windows-64bit.zip",
+                "4.5.0": "https://github.com/ZDoom/gzdoom/releases/download/g4.5.0/gzdoom-4-5-0-Windows-64bit.zip",
+                "4.4.2": "https://github.com/ZDoom/gzdoom/releases/download/g4.4.2/gzdoom-4-4-2-Windows-64bit.zip",
+                "4.4.1": "https://github.com/ZDoom/gzdoom/releases/download/g4.4.1/gzdoom-4-4-1-Windows-64bit.zip",
+                "4.4.0": "https://github.com/ZDoom/gzdoom/releases/download/g4.4.0/gzdoom-4-4-0-Windows-64bit.zip",
+                "4.3.3": "https://github.com/ZDoom/gzdoom/releases/download/g4.3.3/gzdoom-4-3-3-Windows-64bit.zip",
+                "4.3.2": "https://github.com/ZDoom/gzdoom/releases/download/g4.3.2/gzdoom-4-3-2-Windows-64bit.zip",
+                "4.3.1": "https://github.com/ZDoom/gzdoom/releases/download/g4.3.1/gzdoom-4-3-1-Windows-64bit.zip",
+                "4.3.0": "https://github.com/ZDoom/gzdoom/releases/download/g4.3.0/gzdoom-4-3-0-Windows-64bit.zip",
+                "4.2.4": "https://github.com/ZDoom/gzdoom/releases/download/g4.2.4/gzdoom-4-2-4a-Windows-64bit.zip",
+                "4.2.3": "https://github.com/ZDoom/gzdoom/releases/download/g4.2.3/gzdoom-4-2-3-Windows-64bit.zip",
+                "4.2.2": "https://github.com/ZDoom/gzdoom/releases/download/g4.2.2/gzdoom-4-2-1-Windows-64bit.zip",
+                "4.2.1": "https://github.com/ZDoom/gzdoom/releases/download/g4.2.1/gzdoom-4-2-1-Windows-64bit.zip",
+                "4.2.0": "https://github.com/ZDoom/gzdoom/releases/download/g4.2.0/gzdoom-bin-4-2-0-Windows-x64.zip",
+                "4.1.3": "https://github.com/ZDoom/gzdoom/releases/download/g4.1.3/gzdoom-bin-4-1-3-x64.zip",
+                "4.1.2": "https://github.com/ZDoom/gzdoom/releases/download/g4.1.2/gzdoom-bin-4-1-2b-x64.zip",
+                "4.1.1": "https://github.com/ZDoom/gzdoom/releases/download/g4.1.1/gzdoom-bin-4-1-1-x64.zip",
+                "4.1.0": "https://github.com/ZDoom/gzdoom/releases/download/g4.1.0/gzdoom-bin-4-1-0-x64.zip",
+                "4.0.0": "https://github.com/ZDoom/gzdoom/releases/download/g4.0.0/gzdoom-bin-4-0-0-x64.zip",
+                "3.7.2": "https://github.com/ZDoom/gzdoom/releases/download/g3.7.2/gzdoom-bin-3-7-2-x64.zip",
+                "3.7.1": "https://github.com/ZDoom/gzdoom/releases/download/g3.7.1/gzdoom-bin-3-7-1-x64.zip",
+                "3.7.0": "https://github.com/ZDoom/gzdoom/releases/download/g3.7.0/gzdoom-bin-3-7-0-x64.zip",
+                "3.6.0": "https://github.com/ZDoom/gzdoom/releases/download/g3.6.0/gzdoom-bin-3-6-0-x64.zip",
+                "3.5.1": "https://github.com/ZDoom/gzdoom/releases/download/g3.5.1/gzdoom-bin-3-5-1-x64.zip",
+                "3.5.0": "https://github.com/ZDoom/gzdoom/releases/download/g3.5.0/gzdoom-bin-3-5-0-x64.zip",
+                "3.4.1": "https://github.com/ZDoom/gzdoom/releases/download/g3.4.1/gzdoom-bin-3-4-1-x64.zip",
+                "3.4.0": "https://github.com/ZDoom/gzdoom/releases/download/g3.4.0/gzdoom-bin-3-4-0-x64.zip",
+                "3.3.2": "https://github.com/ZDoom/gzdoom/releases/download/g3.3.2/gzdoom-bin-3-3-2-x64.zip",
+                "3.3.1": "https://github.com/ZDoom/gzdoom/releases/download/g3.3.1/gzdoom-bin-3-3-1-x64.zip",
+                "3.3.0": "https://github.com/ZDoom/gzdoom/releases/download/g3.3.0/gzdoom-bin-3-3-0-x64.zip",
+                "3.2.5": "https://github.com/ZDoom/gzdoom/releases/download/g3.2.5/gzdoom-bin-3-2-5-x64.zip",
+                "3.2.4": "https://github.com/ZDoom/gzdoom/releases/download/g3.2.4/gzdoom-bin-3-2-4-x64.zip",
+                "3.2.3": "https://github.com/ZDoom/gzdoom/releases/download/g3.2.3/gzdoom-bin-3-2-3-x64.zip",
+                "3.2.1": "https://github.com/ZDoom/gzdoom/releases/download/g3.2.1/gzdoom-bin-3-2-1-x64.zip",
+                "3.2.0": "https://github.com/ZDoom/gzdoom/releases/download/g3.2.0/gzdoom-bin-3-2-0-x64.zip",
+                "3.1.0": "https://github.com/ZDoom/gzdoom/releases/download/g3.1.0/gzdoom-bin-3-1-0a-x64.zip",
+                "3.0.1": "https://github.com/ZDoom/gzdoom/releases/download/g3.0.1/gzdoom-bin-3-0-1-x64.zip",
+                "3.0.0": "https://github.com/ZDoom/gzdoom/releases/download/g3.0.0/gzdoom-bin-3-0-0-x64.zip",
+                "2.4.0": "https://github.com/ZDoom/gzdoom/releases/download/g2.4.0/gzdoom-bin-2-4-0-x64.zip",
+                "2.3.2": "https://github.com/ZDoom/gzdoom/releases/download/g2.3.2/gzdoom-bin-2-3-2-x64.zip",
+                "2.3.1": "https://github.com/ZDoom/gzdoom/releases/download/g2.3.1/gzdoom-bin-2-3-1-x64.zip",
+                "2.3.0": "https://github.com/ZDoom/gzdoom/releases/download/g2.3.0/gzdoom-bin-2-3-0-x64.zip",
+                "2.2.0": "https://github.com/ZDoom/gzdoom/releases/download/g2.2.0/gzdoom-bin-2-2-0-x64.zip",
+                "2.1.1": "https://github.com/ZDoom/gzdoom/releases/download/g2.1.1/gzdoom-bin-2-1-1-x64.zip"
+            }
+        },
+        {
+            "Name": "GZDoom 32 bit",
+            "Homepage": "https://zdoom.org/index",
+            "Description": "GZDoom is a modder-friendly OpenGL and Vulkan source port based on the DOOM engine",
+            "Arch": "x86",
+            "Versions": {
+                "4.7.1": "https://github.com/ZDoom/gzdoom/releases/download/g4.7.1/gzdoom-4-7-1-Windows-32bit.zip",
+                "4.7.0": "https://github.com/ZDoom/gzdoom/releases/download/g4.7.0/gzdoom-4-7-0-Windows-32bit.zip",
+                "4.4.2": "https://github.com/ZDoom/gzdoom/releases/download/g4.4.2/gzdoom-4-4-2-Windows-32bit.zip",
+                "4.4.1": "https://github.com/ZDoom/gzdoom/releases/download/g4.4.1/gzdoom-4-4-1-Windows-32bit.zip",
+                "4.4.0": "https://github.com/ZDoom/gzdoom/releases/download/g4.4.0/gzdoom-4-4-0-Windows-32bit.zip",
+                "4.3.3": "https://github.com/ZDoom/gzdoom/releases/download/g4.3.3/gzdoom-4-3-3-Windows-32bit.zip",
+                "4.3.2": "https://github.com/ZDoom/gzdoom/releases/download/g4.3.2/gzdoom-4-3-2-Windows-32bit.zip",
+                "4.3.1": "https://github.com/ZDoom/gzdoom/releases/download/g4.3.1/gzdoom-4-3-1-Windows-32bit.zip",
+                "4.3.0": "https://github.com/ZDoom/gzdoom/releases/download/g4.3.0/gzdoom-4-3-0-Windows-32bit.zip",
+                "4.2.4": "https://github.com/ZDoom/gzdoom/releases/download/g4.2.4/gzdoom-4-2-4-Windows-32bit.zip",
+                "4.2.3": "https://github.com/ZDoom/gzdoom/releases/download/g4.2.3/gzdoom-4-2-3-Windows-32bit.zip",
+                "4.2.2": "https://github.com/ZDoom/gzdoom/releases/download/g4.2.2/gzdoom-4-2-1-Windows-32bit.zip",
+                "4.2.1": "https://github.com/ZDoom/gzdoom/releases/download/g4.2.1/gzdoom-4-2-1-Windows-32bit.zip",
+                "4.2.0": "https://github.com/ZDoom/gzdoom/releases/download/g4.2.0/gzdoom-bin-4-2-0-Windows-x86.zip",
+                "4.1.3": "https://github.com/ZDoom/gzdoom/releases/download/g4.1.3/gzdoom-bin-4-1-3.zip",
+                "4.1.2": "https://github.com/ZDoom/gzdoom/releases/download/g4.1.2/gzdoom-bin-4-1-2b.zip",
+                "4.1.1": "https://github.com/ZDoom/gzdoom/releases/download/g4.1.1/gzdoom-bin-4-1-1.zip",
+                "4.1.0": "https://github.com/ZDoom/gzdoom/releases/download/g4.1.0/gzdoom-bin-4-1-0.zip",
+                "4.0.0": "https://github.com/ZDoom/gzdoom/releases/download/g4.0.0/gzdoom-bin-4-0-0.zip",
+                "3.7.2": "https://github.com/ZDoom/gzdoom/releases/download/g3.7.2/gzdoom-bin-3-7-2.zip",
+                "3.7.1": "https://github.com/ZDoom/gzdoom/releases/download/g3.7.1/gzdoom-bin-3-7-1.zip",
+                "3.7.0": "https://github.com/ZDoom/gzdoom/releases/download/g3.7.0/gzdoom-bin-3-7-0.zip",
+                "3.6.0": "https://github.com/ZDoom/gzdoom/releases/download/g3.6.0/gzdoom-bin-3-6-0.zip",
+                "3.5.1": "https://github.com/ZDoom/gzdoom/releases/download/g3.5.1/gzdoom-bin-3-5-1.zip",
+                "3.5.0": "https://github.com/ZDoom/gzdoom/releases/download/g3.5.0/gzdoom-bin-3-5-0.zip",
+                "3.4.1": "https://github.com/ZDoom/gzdoom/releases/download/g3.4.1/gzdoom-bin-3-4-1.zip",
+                "3.4.0": "https://github.com/ZDoom/gzdoom/releases/download/g3.4.0/gzdoom-bin-3-4-0.zip",
+                "3.3.2": "https://github.com/ZDoom/gzdoom/releases/download/g3.3.2/gzdoom-bin-3-3-2.zip",
+                "3.3.1": "https://github.com/ZDoom/gzdoom/releases/download/g3.3.1/gzdoom-bin-3-3-1.zip",
+                "3.3.0": "https://github.com/ZDoom/gzdoom/releases/download/g3.3.0/gzdoom-bin-3-3-0.zip",
+                "3.2.5": "https://github.com/ZDoom/gzdoom/releases/download/g3.2.5/gzdoom-bin-3-2-5.zip",
+                "3.2.4": "https://github.com/ZDoom/gzdoom/releases/download/g3.2.4/gzdoom-bin-3-2-4.zip",
+                "3.2.3": "https://github.com/ZDoom/gzdoom/releases/download/g3.2.3/gzdoom-bin-3-2-3.zip",
+                "3.2.1": "https://github.com/ZDoom/gzdoom/releases/download/g3.2.1/gzdoom-bin-3-2-1.zip",
+                "3.2.0": "https://github.com/ZDoom/gzdoom/releases/download/g3.2.0/gzdoom-bin-3-2-0.zip",
+                "3.1.0": "https://github.com/ZDoom/gzdoom/releases/download/g3.1.0/gzdoom-bin-3-1-0a.zip",
+                "3.0.1": "https://github.com/ZDoom/gzdoom/releases/download/g3.0.1/gzdoom-bin-3-0-1.zip",
+                "3.0.0": "https://github.com/ZDoom/gzdoom/releases/download/g3.0.0/gzdoom-bin-3-0-0.zip",
+                "2.4.0": "https://github.com/ZDoom/gzdoom/releases/download/g2.4.0/gzdoom-bin-2-4-0.zip",
+                "2.3.2": "https://github.com/ZDoom/gzdoom/releases/download/g2.3.2/gzdoom-bin-2-3-2.zip",
+                "2.3.1": "https://github.com/ZDoom/gzdoom/releases/download/g2.3.1/gzdoom-bin-2-3-1.zip",
+                "2.3.0": "https://github.com/ZDoom/gzdoom/releases/download/g2.3.0/gzdoom-bin-2-3-0.zip",
+                "2.2.0": "https://github.com/ZDoom/gzdoom/releases/download/g2.2.0/gzdoom-bin-2-2-0.zip",
+                "2.1.1": "https://github.com/ZDoom/gzdoom/releases/download/g2.1.1/gzdoom-bin-2-1-1.zip",
+                "1.9.1": "https://github.com/ZDoom/gzdoom/releases/download/g1.9.1/gzdoom-bin-1-9-1.zip",
+                "2.1.0": "https://github.com/ZDoom/gzdoom/releases/download/g2.1.0/gzdoom-bin-2-1-0.zip",
+                "1.9.0": "https://github.com/ZDoom/gzdoom/releases/download/g1.9.0/gzdoom-bin-1-9-0.zip",
+                "1.8.10": "https://github.com/ZDoom/gzdoom/releases/download/1.8.10/gzdoom-bin-1-8-10.zip",
+                "2.0.5": "https://github.com/ZDoom/gzdoom/releases/download/g2.0.05/gzdoom-bin-2-0-05.zip",
+                "1.8.6": "https://github.com/ZDoom/gzdoom/releases/download/g1.8.6/gzdoom-bin-1-8-06.zip"
             }
         }
     ]
