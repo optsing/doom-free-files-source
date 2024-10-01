@@ -3,6 +3,7 @@
         {
             "Name": "Freedoom",
             "Description": "The Freedoom project aims to create a complete, free content first person shooter game, but Freedoom by itself is just the raw material for a game.",
+            "Homepage": "https://freedoom.github.io",
             "Versions": {
                 "0.13.0": {
                     "Url": "https://github.com/freedoom/freedoom/releases/download/v0.13.0/freedoom-0.13.0.zip",
@@ -25,6 +26,7 @@
         {
             "Name": "Blasphemer",
             "Description": "Blasphemer aims to create a free content package for the Heretic engine, with a theme of metal-inspired dark fantasy.",
+            "Homepage": "https://github.com/Blasphemer/blasphemer",
             "Versions": {
                 "0.1.8": {
                     "Url": "https://github.com/Blasphemer/blasphemer/releases/download/v0.1.8/blasphem-0.1.8.zip",
