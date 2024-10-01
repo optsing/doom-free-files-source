@@ -98,10 +98,21 @@
         {
             "Name": "GZDoom",
             "Homepage": "https://zdoom.org/index",
+            "Description": "GZDoom is a modder-friendly OpenGL and Vulkan source port based on the DOOM engine",
             "Versions": {
                 "4.12.2": {
                     "Url": "https://github.com/ZDoom/gzdoom/releases/download/g4.12.2/gzdoom-4-12-2-windows.zip",
                     "Version": "4.12.2",
+                    "Arch": "x64"
+                },
+                "4.12.1": {
+                    "Url": "https://github.com/ZDoom/gzdoom/releases/download/g4.12.1/gzdoom-4-12-1-windows.zip",
+                    "Version": "4.12.1",
+                    "Arch": "x64"
+                },
+                "4.12.0": {
+                    "Url": "https://github.com/ZDoom/gzdoom/releases/download/g4.12.0/gzdoom-4-12-0-Windows.zip",
+                    "Version": "4.12.0",
                     "Arch": "x64"
                 }
             }
