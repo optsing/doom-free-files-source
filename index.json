@@ -47,6 +47,19 @@
                     }
                 }
             }
+        },
+        {
+            "Name": "Chex Quest 3",
+            "Description": "Chex Quest 3 is a free, family-friendly first-person shooter video game, developed as the third and final installment in the Chex Quest series. Originally released in 2008, it follows the same format as the earlier games, where players assume the role of a Chex Warrior tasked with defending the galaxy from evil alien creatures called Flemoids.\n\nSet in colorful, cereal-themed environments, players use non-violent weapons like the Zorcher to \"teleport\" enemies away, rather than kill them. The game is a fun, quirky modification of the classic Doom engine, and it's known for its nostalgic appeal and unique marketing history, since the original Chex Quest was first introduced as a free CD-ROM inside boxes of Chex cereal in 1996.",
+            "Versions": {
+                "1.4":{
+                    "Url": "https://archive.org/download/ChexQuest3_1020/ChexQuest3.zip",
+                    "InstallType": "Zip",
+                    "InstallTypeZipFileNames": {
+                        "Chex Quest 3 (1.4).wad": "chex3.wad"
+                    }
+                }
+            }
         }
     ],
     "Files": [
