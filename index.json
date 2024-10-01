@@ -8,16 +8,16 @@
                     "Url": "https://github.com/freedoom/freedoom/releases/download/v0.13.0/freedoom-0.13.0.zip",
                     "InstallType": "Zip",
                     "InstallTypeZipFileNames": {
-                        "freedoom1-0.13.0.wad": "freedoom-0.13.0/freedoom1.wad",
-                        "freedoom2-0.13.0.wad": "freedoom-0.13.0/freedoom2.wad" 
+                        "Freedoom Phase 1 (0.13.0).wad": "freedoom-0.13.0/freedoom1.wad",
+                        "Freedoom Phase 2 (0.13.0).wad": "freedoom-0.13.0/freedoom2.wad" 
                     }
                 },
                 "0.12.1" : {
                     "Url": "https://github.com/freedoom/freedoom/releases/download/v0.12.1/freedoom-0.12.1.zip",
                     "InstallType": "Zip",
                     "InstallTypeZipFileNames": {
-                        "Freedoom1-0.12.1.wad": "freedoom-0.12.1/freedoom1.wad",
-                        "Freedoom2-0.12.1.wad": "freedoom-0.12.1/freedoom2.wad" 
+                        "Freedoom Phase 1 (0.12.1).wad": "freedoom-0.12.1/freedoom1.wad",
+                        "Freedoom Phase 2 (0.12.1).wad": "freedoom-0.12.1/freedoom2.wad" 
                     }
                 }
             }
@@ -57,7 +57,7 @@
                 "0.1.0A": {
                     "Url": "https://github.com/pa1nki113r/Project_Brutality/archive/refs/tags/0.1.0A.zip",
                     "InstallType": "AsIs",
-                    "InstallTypeAsIsFileName": "ProjectBrutality-0.1.0A.pk3"
+                    "InstallTypeAsIsFileName": "Project Brutality (0.1.0A).pk3"
                 }
             }
         }
