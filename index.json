@@ -30,7 +30,7 @@
                     "Url": "https://github.com/Blasphemer/blasphemer/releases/download/v0.1.8/blasphem-0.1.8.zip",
                     "InstallType": "Zip",
                     "InstallTypeZipFileNames": {
-                        "Blasphemer.wad": "blasphem.wad"
+                        "Blasphemer (0.1.8).wad": "blasphem.wad"
                     }
                 }
             }
@@ -43,7 +43,7 @@
                     "Url": "http://www.drnostromo.com/hacx/files/hacx12.zip",
                     "InstallType": "Zip",
                     "InstallTypeZipFileNames": {
-                        "HACX.WAD": "HACX.WAD"
+                        "HACX (1.2).WAD": "HACX.WAD"
                     }
                 }
             }
