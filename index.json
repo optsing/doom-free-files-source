@@ -82,6 +82,17 @@
     ],
     "Files": [
         {
+            "Name": "Brutal Doom",
+            "Description": "The definitive gameplay enhancement mod for the GZDoom and Zandronum engines. Adds realistic gore, dismemberments, headshots, executions, lightning effects, particles, makes enemies smarter and harder, makes gun louder and beefier, and adds epic new boss battles.",
+            "Homepage": "https://www.moddb.com/mods/brutal-doom",
+            "Versions": {
+                "21": {
+                    "Url": "https://www.moddb.com/downloads/start/95667",
+                    "InstallType": "User"
+                }
+            }
+        },
+        {
             "Name": "Project Brutality",
             "Description": "Project Brutality is a fast-paced gameplay mod that aims to amp up classic Doom like never before.",
             "Homepage": "https://projectbrutality.com/",
