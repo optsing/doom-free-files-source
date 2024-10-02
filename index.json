@@ -86,6 +86,10 @@
             "Description": "The definitive gameplay enhancement mod for the GZDoom and Zandronum engines. Adds realistic gore, dismemberments, headshots, executions, lightning effects, particles, makes enemies smarter and harder, makes gun louder and beefier, and adds epic new boss battles.",
             "Homepage": "https://www.moddb.com/mods/brutal-doom",
             "Versions": {
+                "22 beta 4": {
+                    "Url": "https://www.moddb.com/downloads/start/265147",
+                    "InstallType": "User"
+                },
                 "21": {
                     "Url": "https://www.moddb.com/downloads/start/95667",
                     "InstallType": "User"
