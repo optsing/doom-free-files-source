@@ -105,6 +105,36 @@
             }
         },
         {
+            "Name": "Brutal Voxel Doom",
+            "Description": "Taking Cheello's famous Voxel Doom and putting some brutality into it, brutal voxel doom adds headshots, tons of gore, new monsters and weapons to DooM, all in the form of voxels.",
+            "Homepage": "https://www.moddb.com/mods/brutal-voxel-doom",
+            "Versions": {
+                "2.0": {
+                    "Url": "https://www.moddb.com/downloads/start/270638",
+                    "UrlType": "ModDB",
+                    "InstallType": "Zip",
+                    "InstallTypeZipFileNames": {
+                        "Brutal Voxel Doom v2.0.pk3": "brutalVoxelDoom2.0Complete.pk3"
+                    }
+                }
+            }
+        },
+        {
+            "Name": "Doom Metal Soundtrack",
+            "Description": "This is a compilation with rock/metal remixes of doom's original songs composed by many community artists.",
+            "Homepage": "https://www.moddb.com/mods/brutal-doom/downloads/doom-metal-soundtrack-mod-volume-5",
+            "Versions": {
+                "Volume 5": {
+                    "Url": "https://www.moddb.com/downloads/start/179574",
+                    "UrlType": "ModDB",
+                    "InstallType": "Zip",
+                    "InstallTypeZipFileNames": {
+                        "DoomMetalVol5.wad": "DoomMetalVol5.wad"
+                    }
+                }
+            }
+        },
+        {
             "Name": "Project Brutality",
             "Description": "Project Brutality is a fast-paced gameplay mod that aims to amp up classic Doom like never before.",
             "Homepage": "https://projectbrutality.com/",
