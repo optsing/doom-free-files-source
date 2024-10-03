@@ -9,16 +9,16 @@
                     "Url": "https://github.com/freedoom/freedoom/releases/download/v0.13.0/freedoom-0.13.0.zip",
                     "InstallType": "Zip",
                     "InstallTypeZipFileNames": {
-                        "Freedoom Phase 1 (0.13.0).wad": "freedoom-0.13.0/freedoom1.wad",
-                        "Freedoom Phase 2 (0.13.0).wad": "freedoom-0.13.0/freedoom2.wad"
+                        "Freedoom Phase 1 v0.13.0.wad": "freedoom-0.13.0/freedoom1.wad",
+                        "Freedoom Phase 2 v0.13.0.wad": "freedoom-0.13.0/freedoom2.wad"
                     }
                 },
                 "0.12.1": {
                     "Url": "https://github.com/freedoom/freedoom/releases/download/v0.12.1/freedoom-0.12.1.zip",
                     "InstallType": "Zip",
                     "InstallTypeZipFileNames": {
-                        "Freedoom Phase 1 (0.12.1).wad": "freedoom-0.12.1/freedoom1.wad",
-                        "Freedoom Phase 2 (0.12.1).wad": "freedoom-0.12.1/freedoom2.wad"
+                        "Freedoom Phase 1 v0.12.1.wad": "freedoom-0.12.1/freedoom1.wad",
+                        "Freedoom Phase 2 v0.12.1.wad": "freedoom-0.12.1/freedoom2.wad"
                     }
                 }
             }
@@ -32,7 +32,7 @@
                     "Url": "https://github.com/Blasphemer/blasphemer/releases/download/v0.1.8/blasphem-0.1.8.zip",
                     "InstallType": "Zip",
                     "InstallTypeZipFileNames": {
-                        "Blasphemer (0.1.8).wad": "blasphem.wad"
+                        "Blasphemer v0.1.8.wad": "blasphem.wad"
                     }
                 }
             }
@@ -46,7 +46,7 @@
                     "Url": "http://www.drnostromo.com/hacx/files/hacx12.zip",
                     "InstallType": "Zip",
                     "InstallTypeZipFileNames": {
-                        "HACX (1.2).WAD": "HACX.WAD"
+                        "HACX v1.2.WAD": "HACX.WAD"
                     }
                 }
             }
@@ -60,7 +60,7 @@
                     "Url": "https://archive.org/download/ChexQuest3_1020/ChexQuest3.zip",
                     "InstallType": "Zip",
                     "InstallTypeZipFileNames": {
-                        "Chex Quest 3 (1.4).wad": "chex3.wad"
+                        "Chex Quest 3 v1.4.wad": "chex3.wad"
                     }
                 }
             }
@@ -74,7 +74,7 @@
                     "Url": "http://www.evil-soft.com/Heretic/harmonyv1.1.zip",
                     "InstallType": "Zip",
                     "InstallTypeZipFileNames": {
-                        "Harmony (1.1).wad": "harmony v1.1/harm1.wad"
+                        "Harmony v1.1.wad": "harmony v1.1/harm1.wad"
                     }
                 }
             }
@@ -91,12 +91,16 @@
                     "UrlType": "ModDB",
                     "InstallType": "Zip",
                     "InstallTypeZipFileNames": {
-                        "Brutal Doom (22b4).pk3": "brutalv22test4.pk3"
+                        "Brutal Doom v22b4.pk3": "brutalv22test4.pk3"
                     }
                 },
                 "21": {
                     "Url": "https://www.moddb.com/downloads/start/95667",
-                    "InstallType": "User"
+                    "UrlType": "ModDB",
+                    "InstallType": "RAR",
+                    "InstallTypeZipFileNames": {
+                        "Brutal Doom v21.pk3": "brutalv21.pk3"
+                    }
                 }
             }
         },
@@ -108,7 +112,7 @@
                 "0.1.0A": {
                     "Url": "https://github.com/pa1nki113r/Project_Brutality/archive/refs/tags/0.1.0A.zip",
                     "InstallType": "AsIs",
-                    "InstallTypeAsIsFileName": "Project Brutality (0.1.0A).pk3"
+                    "InstallTypeAsIsFileName": "Project Brutality v0.1.0A.pk3"
                 }
             }
         }
