@@ -8,7 +8,7 @@
                 "0.13.0": {
                     "Url": "https://github.com/freedoom/freedoom/releases/download/v0.13.0/freedoom-0.13.0.zip",
                     "InstallType": "Zip",
-                    "InstallTypeZipFileNames": {
+                    "InstallTypeArchiveFileNames": {
                         "Freedoom Phase 1 v0.13.0.wad": "freedoom-0.13.0/freedoom1.wad",
                         "Freedoom Phase 2 v0.13.0.wad": "freedoom-0.13.0/freedoom2.wad"
                     }
@@ -16,7 +16,7 @@
                 "0.12.1": {
                     "Url": "https://github.com/freedoom/freedoom/releases/download/v0.12.1/freedoom-0.12.1.zip",
                     "InstallType": "Zip",
-                    "InstallTypeZipFileNames": {
+                    "InstallTypeArchiveFileNames": {
                         "Freedoom Phase 1 v0.12.1.wad": "freedoom-0.12.1/freedoom1.wad",
                         "Freedoom Phase 2 v0.12.1.wad": "freedoom-0.12.1/freedoom2.wad"
                     }
@@ -31,7 +31,7 @@
                 "0.1.8": {
                     "Url": "https://github.com/Blasphemer/blasphemer/releases/download/v0.1.8/blasphem-0.1.8.zip",
                     "InstallType": "Zip",
-                    "InstallTypeZipFileNames": {
+                    "InstallTypeArchiveFileNames": {
                         "Blasphemer v0.1.8.wad": "blasphem.wad"
                     }
                 }
@@ -45,7 +45,7 @@
                 "1.2": {
                     "Url": "http://www.drnostromo.com/hacx/files/hacx12.zip",
                     "InstallType": "Zip",
-                    "InstallTypeZipFileNames": {
+                    "InstallTypeArchiveFileNames": {
                         "HACX v1.2.WAD": "HACX.WAD"
                     }
                 }
@@ -59,7 +59,7 @@
                 "1.4": {
                     "Url": "https://archive.org/download/ChexQuest3_1020/ChexQuest3.zip",
                     "InstallType": "Zip",
-                    "InstallTypeZipFileNames": {
+                    "InstallTypeArchiveFileNames": {
                         "Chex Quest 3 v1.4.wad": "chex3.wad"
                     }
                 }
@@ -73,7 +73,7 @@
                 "1.1": {
                     "Url": "http://www.evil-soft.com/Heretic/harmonyv1.1.zip",
                     "InstallType": "Zip",
-                    "InstallTypeZipFileNames": {
+                    "InstallTypeArchiveFileNames": {
                         "Harmony v1.1.wad": "harmony v1.1/harm1.wad"
                     }
                 }
@@ -90,7 +90,7 @@
                     "Url": "https://www.moddb.com/downloads/start/265147",
                     "UrlType": "ModDB",
                     "InstallType": "Zip",
-                    "InstallTypeZipFileNames": {
+                    "InstallTypeArchiveFileNames": {
                         "Brutal Doom v22b4.pk3": "brutalv22test4.pk3"
                     }
                 },
@@ -98,7 +98,7 @@
                     "Url": "https://www.moddb.com/downloads/start/95667",
                     "UrlType": "ModDB",
                     "InstallType": "RAR",
-                    "InstallTypeZipFileNames": {
+                    "InstallTypeArchiveFileNames": {
                         "Brutal Doom v21.pk3": "brutalv21.pk3"
                     }
                 }
@@ -113,7 +113,7 @@
                     "Url": "https://www.moddb.com/downloads/start/270638",
                     "UrlType": "ModDB",
                     "InstallType": "Zip",
-                    "InstallTypeZipFileNames": {
+                    "InstallTypeArchiveFileNames": {
                         "Brutal Voxel Doom v2.0.pk3": "brutalVoxelDoom2.0Complete.pk3"
                     }
                 }
@@ -128,7 +128,7 @@
                     "Url": "https://www.moddb.com/downloads/start/179574",
                     "UrlType": "ModDB",
                     "InstallType": "Zip",
-                    "InstallTypeZipFileNames": {
+                    "InstallTypeArchiveFileNames": {
                         "DoomMetalVol5.wad": "DoomMetalVol5.wad"
                     }
                 }
