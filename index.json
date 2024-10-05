@@ -9,8 +9,14 @@
                     "Url": "https://github.com/freedoom/freedoom/releases/download/v0.13.0/freedoom-0.13.0.zip",
                     "InstallType": "Zip",
                     "InstallTypeArchiveFileNames": {
-                        "Freedoom Phase 1 v0.13.0.wad": "freedoom-0.13.0/freedoom1.wad",
-                        "Freedoom Phase 2 v0.13.0.wad": "freedoom-0.13.0/freedoom2.wad"
+                        "Freedoom Phase 1 v0.13.0.wad": {
+                            "Name": "Freedoom: Phase 1 v0.13.0",
+                            "Path": "freedoom-0.13.0/freedoom1.wad"
+                        },
+                        "Freedoom Phase 2 v0.13.0.wad": {
+                            "Name": "Freedoom: Phase 2 v0.13.0",
+                            "Path": "freedoom-0.13.0/freedoom2.wad"
+                        }
                     }
                 },
                 "0.12.1": {
