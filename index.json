@@ -155,7 +155,7 @@
                     "Url": "https://romero.com/s/SIGIL_v1_21.zip",
                     "InstallType": "Zip",
                     "InstallTypeArchiveFileNames": {
-                        "SIGIL v1.21.wad": "SIGIL_v1_21.wad"
+                        "SIGIL v1.21.wad": "SIGIL_v1_21/SIGIL_v1_21.wad"
                     }
                 }
             }
