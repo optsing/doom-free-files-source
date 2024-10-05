@@ -173,6 +173,23 @@
                     }
                 }
             }
+        },
+        {
+            "Name": "Maps of Chaos: The Full Package",
+            "Description": "Maps of Chaos, released on January 10, 2015, is a Doom mod featuring enhanced and expanded levels for single and co-op play. It includes three versions: Standard, Hardcore, and Overkill, with increasing difficulty, more enemies, and additional map sections, requiring a limit-removing source port like Boom/prBoom.\n\nThe \"Full Package\" contains all editions, with Overkill offering relentless combat for hardcore players. Though not Brutal Doom exclusive, it supports any mod or can be played standalone. The Standard and Hardcore versions are complete, while Overkill remains 85% finished.",
+            "Homepage": "https://www.moddb.com/mods/brutal-doom/addons/brutalized-doom-and-doom-ii",
+            "Versions": {
+                "1.28a": {
+                    "Url": "https://www.moddb.com/addons/start/63294",
+                    "UrlType": "ModDB",
+                    "InstallType": "Zip",
+                    "InstallTypeArchiveFileNames": {
+                        "Maps of Chaos Standart v1.28a.wad": "mapsofchaos.wad",
+                        "Maps of Chaos Hardcore v1.28a.wad": "mapsofchaos-hc.wad",
+                        "Maps of Chaos Overkill v1.28a.wad": "mapsofchaos-ok.wad"
+                    }
+                }
+            }
         }
     ],
     "Ports": [
