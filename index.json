@@ -12,12 +12,24 @@
                         "Freedoom Phase 1 v0.13.0.wad": {
                             "Name": "Freedoom: Phase 1",
                             "Title": "Version 0.13.0",
-                            "Path": "freedoom-0.13.0/freedoom1.wad"
+                            "Path": "freedoom-0.13.0/freedoom1.wad",
+                            "Images": [
+                                "https://freedoom.github.io/img/screenshots/p1_5.jpg",
+                                "https://freedoom.github.io/img/screenshots/p1_6.jpg",
+                                "https://freedoom.github.io/img/screenshots/p1_7.jpg",
+                                "https://freedoom.github.io/img/screenshots/p1_8.jpg"
+                            ]
                         },
                         "Freedoom Phase 2 v0.13.0.wad": {
                             "Name": "Freedoom: Phase 2",
                             "Title": "Version 0.13.0",
-                            "Path": "freedoom-0.13.0/freedoom2.wad"
+                            "Path": "freedoom-0.13.0/freedoom2.wad",
+                            "Images": [
+                                "https://freedoom.github.io/img/screenshots/p2_5.jpg",
+                                "https://freedoom.github.io/img/screenshots/p2_6.jpg",
+                                "https://freedoom.github.io/img/screenshots/p2_7.jpg",
+                                "https://freedoom.github.io/img/screenshots/p2_8.jpg"
+                            ]
                         }
                     }
                 },
