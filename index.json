@@ -10,11 +10,13 @@
                     "InstallType": "Zip",
                     "InstallTypeArchiveFileNames": {
                         "Freedoom Phase 1 v0.13.0.wad": {
-                            "Name": "Freedoom: Phase 1 v0.13.0",
+                            "Name": "Freedoom: Phase 1",
+                            "Title": "Version 0.13.0",
                             "Path": "freedoom-0.13.0/freedoom1.wad"
                         },
                         "Freedoom Phase 2 v0.13.0.wad": {
-                            "Name": "Freedoom: Phase 2 v0.13.0",
+                            "Name": "Freedoom: Phase 2",
+                            "Title": "Version 0.13.0",
                             "Path": "freedoom-0.13.0/freedoom2.wad"
                         }
                     }
@@ -194,9 +196,21 @@
                     "UrlType": "ModDB",
                     "InstallType": "Zip",
                     "InstallTypeArchiveFileNames": {
-                        "Maps of Chaos Standart v1.28a.wad": "mapsofchaos.wad",
-                        "Maps of Chaos Hardcore v1.28a.wad": "mapsofchaos-hc.wad",
-                        "Maps of Chaos Overkill v1.28a.wad": "mapsofchaos-ok.wad"
+                        "Maps of Chaos Standart v1.28a.wad": {
+                            "Name": "Maps of Chaos: Standart",
+                            "Title": "Version 1.28a",
+                            "Path": "mapsofchaos.wad"
+                        },
+                        "Maps of Chaos Hardcore v1.28a.wad": {
+                            "Name": "Maps of Chaos: Hardcore",
+                            "Title": "Version 1.28a",
+                            "Path": "mapsofchaos-hc.wad"
+                        },
+                        "Maps of Chaos Overkill v1.28a.wad": {
+                            "Name": "Maps of Chaos: Overkill",
+                            "Title": "Version 1.28a",
+                            "Path": "mapsofchaos-ok.wad"
+                        }
                     }
                 }
             }
