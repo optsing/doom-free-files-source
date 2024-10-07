@@ -4,6 +4,16 @@
             "Name": "Freedoom: Phase 1 & Phase 2",
             "Description": "The Freedoom project aims to create a complete, free content first person shooter game, but Freedoom by itself is just the raw material for a game.",
             "Homepage": "https://freedoom.github.io",
+            "Images": [
+                "https://freedoom.github.io/img/screenshots/p1_5.jpg",
+                "https://freedoom.github.io/img/screenshots/p1_6.jpg",
+                "https://freedoom.github.io/img/screenshots/p1_7.jpg",
+                "https://freedoom.github.io/img/screenshots/p1_8.jpg",
+                "https://freedoom.github.io/img/screenshots/p2_5.jpg",
+                "https://freedoom.github.io/img/screenshots/p2_6.jpg",
+                "https://freedoom.github.io/img/screenshots/p2_7.jpg",
+                "https://freedoom.github.io/img/screenshots/p2_8.jpg"
+            ],
             "Versions": {
                 "0.13.0": {
                     "Url": "https://github.com/freedoom/freedoom/releases/download/v0.13.0/freedoom-0.13.0.zip",
@@ -13,23 +23,13 @@
                             "Name": "Freedoom: Phase 1",
                             "Title": "Version 0.13.0",
                             "Path": "freedoom-0.13.0/freedoom1.wad",
-                            "Images": [
-                                "https://freedoom.github.io/img/screenshots/p1_5.jpg",
-                                "https://freedoom.github.io/img/screenshots/p1_6.jpg",
-                                "https://freedoom.github.io/img/screenshots/p1_7.jpg",
-                                "https://freedoom.github.io/img/screenshots/p1_8.jpg"
-                            ]
+                            "Images": [0, 1, 2, 3]
                         },
                         "Freedoom Phase 2 v0.13.0.wad": {
                             "Name": "Freedoom: Phase 2",
                             "Title": "Version 0.13.0",
                             "Path": "freedoom-0.13.0/freedoom2.wad",
-                            "Images": [
-                                "https://freedoom.github.io/img/screenshots/p2_5.jpg",
-                                "https://freedoom.github.io/img/screenshots/p2_6.jpg",
-                                "https://freedoom.github.io/img/screenshots/p2_7.jpg",
-                                "https://freedoom.github.io/img/screenshots/p2_8.jpg"
-                            ]
+                            "Images": [4, 5, 6, 7]
                         }
                     }
                 },
