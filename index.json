@@ -18,16 +18,15 @@
                 "0.13.0": {
                     "Url": "https://github.com/freedoom/freedoom/releases/download/v0.13.0/freedoom-0.13.0.zip",
                     "InstallType": "Zip",
+                    "Title": "Version 0.13.0",
                     "InstallTypeArchiveFileNames": {
                         "Freedoom Phase 1 v0.13.0.wad": {
                             "Name": "Freedoom: Phase 1",
-                            "Title": "Version 0.13.0",
                             "Path": "freedoom-0.13.0/freedoom1.wad",
                             "Images": [0, 1, 2, 3]
                         },
                         "Freedoom Phase 2 v0.13.0.wad": {
                             "Name": "Freedoom: Phase 2",
-                            "Title": "Version 0.13.0",
                             "Path": "freedoom-0.13.0/freedoom2.wad",
                             "Images": [4, 5, 6, 7]
                         }
@@ -166,6 +165,7 @@
                 "0.1.0A": {
                     "Url": "https://github.com/pa1nki113r/Project_Brutality/archive/refs/tags/0.1.0A.zip",
                     "InstallType": "AsIs",
+                    "Title": "Version 0.1.0A",
                     "InstallTypeAsIsFileName": "Project Brutality v0.1.0A.pk3"
                 }
             }
