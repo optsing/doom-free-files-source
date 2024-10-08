@@ -19,26 +19,30 @@
                     "Url": "https://github.com/freedoom/freedoom/releases/download/v0.13.0/freedoom-0.13.0.zip",
                     "InstallType": "Zip",
                     "Title": "Version 0.13.0",
-                    "InstallTypeArchiveFileNames": {
-                        "Freedoom Phase 1 v0.13.0.wad": {
+                    "Entries": [
+                        {
                             "Name": "Freedoom: Phase 1",
-                            "Path": "freedoom-0.13.0/freedoom1.wad",
-                            "Images": [0, 1, 2, 3]
+                            "Images": [0, 1, 2, 3],
+                            "IWAD": { "Name": "Freedoom Phase 1 v0.13.0.wad", "Path": "freedoom-0.13.0/freedoom1.wad" }
                         },
-                        "Freedoom Phase 2 v0.13.0.wad": {
+                        {
                             "Name": "Freedoom: Phase 2",
-                            "Path": "freedoom-0.13.0/freedoom2.wad",
-                            "Images": [4, 5, 6, 7]
+                            "Images": [4, 5, 6, 7],
+                            "IWAD": { "Name": "Freedoom Phase 2 v0.13.0.wad", "Path": "freedoom-0.13.0/freedoom2.wad" }
                         }
-                    }
+                    ]
                 },
                 "0.12.1": {
                     "Url": "https://github.com/freedoom/freedoom/releases/download/v0.12.1/freedoom-0.12.1.zip",
                     "InstallType": "Zip",
-                    "InstallTypeArchiveFileNames": {
-                        "Freedoom Phase 1 v0.12.1.wad": "freedoom-0.12.1/freedoom1.wad",
-                        "Freedoom Phase 2 v0.12.1.wad": "freedoom-0.12.1/freedoom2.wad"
-                    }
+                    "Entries": [
+                        {
+                            "IWAD": { "Name": "Freedoom Phase 1 v0.12.1.wad", "Path": "freedoom-0.12.1/freedoom1.wad" }
+                        },
+                        {
+                            "IWAD": { "Name": "Freedoom Phase 2 v0.12.1.wad", "Path": "freedoom-0.12.1/freedoom2.wad" }
+                        }
+                    ]
                 }
             }
         },
@@ -50,9 +54,11 @@
                 "0.1.8": {
                     "Url": "https://github.com/Blasphemer/blasphemer/releases/download/v0.1.8/blasphem-0.1.8.zip",
                     "InstallType": "Zip",
-                    "InstallTypeArchiveFileNames": {
-                        "Blasphemer v0.1.8.wad": "blasphem.wad"
-                    }
+                    "Entries": [
+                        {
+                            "IWAD": { "Name": "Blasphemer v0.1.8.wad", "Path": "blasphem.wad" }
+                        }
+                    ]
                 }
             }
         },
@@ -64,9 +70,11 @@
                 "1.2": {
                     "Url": "http://www.drnostromo.com/hacx/files/hacx12.zip",
                     "InstallType": "Zip",
-                    "InstallTypeArchiveFileNames": {
-                        "HACX v1.2.WAD": "HACX.WAD"
-                    }
+                    "Entries": [
+                        {
+                            "IWAD": { "Name": "HACX v1.2.WAD", "Path": "HACX.WAD" }
+                        }
+                    ]
                 }
             }
         },
@@ -78,9 +86,11 @@
                 "1.4": {
                     "Url": "https://archive.org/download/ChexQuest3_1020/ChexQuest3.zip",
                     "InstallType": "Zip",
-                    "InstallTypeArchiveFileNames": {
-                        "Chex Quest 3 v1.4.wad": "chex3.wad"
-                    }
+                    "Entries": [
+                        {
+                            "IWAD": { "Name": "Chex Quest 3 v1.4.wad", "Path": "chex3.wad" }
+                        }
+                    ]
                 }
             }
         },
@@ -92,14 +102,37 @@
                 "1.1": {
                     "Url": "http://www.evil-soft.com/Heretic/harmonyv1.1.zip",
                     "InstallType": "Zip",
-                    "InstallTypeArchiveFileNames": {
-                        "Harmony v1.1.wad": "harmony v1.1/harm1.wad"
-                    }
+                    "Entries": [
+                        {
+                            "IWAD": { "Name": "Harmony v1.1.wad", "Path": "harmony v1.1/harm1.wad" }
+                        }
+                    ]
                 }
             }
         }
     ],
     "Files": [
+        {
+            "Name": "Brutal Doom: Hell on Earth Starter Pack",
+            "Homepage": "https://www.moddb.com/mods/recurring-nightmare/downloads/brutal-doom-hell-on-earth-starter-pack",
+            "Versions": {
+                "20b": {
+                    "Url": "https://www.moddb.com/downloads/start/95669",
+                    "UrlType": "ModDB",
+                    "InstallType": "Zip",
+                    "Entries": [
+                        {
+                            "IWAD": { "Name": "BDHoESP freedoom v20b.wad", "Path": "Brutal Doom - Hell on Earth Starter Pack/freedoom.wad" },
+                            "Files": [
+                                { "Name": "BDHoESP brutalv20b v20b.pk3", "Path": "Brutal Doom - Hell on Earth Starter Pack/brutalv20b.pk3" },
+                                { "Name": "BDHoESP hellonearthstarterpack v20b.wad", "Path": "Brutal Doom - Hell on Earth Starter Pack/hellonearthstarterpack.wad" },
+                                { "Name": "BDHoESP ExtraTextures v20b.wad", "Path": "Brutal Doom - Hell on Earth Starter Pack/ExtraTextures.wad" }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
         {
             "Name": "Brutal Doom",
             "Description": "The definitive gameplay enhancement mod for the GZDoom and Zandronum engines. Adds realistic gore, dismemberments, headshots, executions, lightning effects, particles, makes enemies smarter and harder, makes gun louder and beefier, and adds epic new boss battles.",
@@ -113,17 +146,25 @@
                     "Url": "https://www.moddb.com/downloads/start/265147",
                     "UrlType": "ModDB",
                     "InstallType": "Zip",
-                    "InstallTypeArchiveFileNames": {
-                        "Brutal Doom v22b4.pk3": "brutalv22test4.pk3"
-                    }
+                    "Entries": [
+                        {
+                            "Files": [
+                                { "Name": "Brutal Doom v22b4.pk3", "Path": "brutalv22test4.pk3" }
+                            ]
+                        }
+                    ]
                 },
                 "21": {
                     "Url": "https://www.moddb.com/downloads/start/95667",
                     "UrlType": "ModDB",
                     "InstallType": "RAR",
-                    "InstallTypeArchiveFileNames": {
-                        "Brutal Doom v21.pk3": "brutalv21.pk3"
-                    }
+                    "Entries": [
+                        {
+                            "Files": [
+                                { "Name": "Brutal Doom v21.pk3", "Path": "brutalv21.pk3" }
+                            ]
+                        }
+                    ]
                 }
             }
         },
@@ -136,9 +177,13 @@
                     "Url": "https://www.moddb.com/downloads/start/270638",
                     "UrlType": "ModDB",
                     "InstallType": "Zip",
-                    "InstallTypeArchiveFileNames": {
-                        "Brutal Voxel Doom v2.0.pk3": "brutalVoxelDoom2.0Complete.pk3"
-                    }
+                    "Entries": [
+                        {
+                            "Files": [
+                                { "Name": "Brutal Voxel Doom v2.0.pk3", "Path": "brutalVoxelDoom2.0Complete.pk3" }
+                            ]
+                        }
+                    ]
                 }
             }
         },
@@ -151,9 +196,13 @@
                     "Url": "https://www.moddb.com/downloads/start/179574",
                     "UrlType": "ModDB",
                     "InstallType": "Zip",
-                    "InstallTypeArchiveFileNames": {
-                        "DoomMetalVol5.wad": "DoomMetalVol5.wad"
-                    }
+                    "Entries": [
+                        {
+                            "Files": [
+                                { "Name": "DoomMetalVol5.wad", "Path": "DoomMetalVol5.wad" }
+                            ]
+                        }
+                    ]
                 }
             }
         },
@@ -166,7 +215,13 @@
                     "Url": "https://github.com/pa1nki113r/Project_Brutality/archive/refs/tags/0.1.0A.zip",
                     "InstallType": "AsIs",
                     "Title": "Version 0.1.0A",
-                    "InstallTypeAsIsFileName": "Project Brutality v0.1.0A.pk3"
+                    "Entries": [
+                        {
+                            "Files": [
+                                { "Name": "Project Brutality v0.1.0A.pk3", "Path": "" }
+                            ]
+                        }
+                    ]
                 }
             }
         },
@@ -178,9 +233,13 @@
                 "1.21": {
                     "Url": "https://romero.com/s/SIGIL_v1_21.zip",
                     "InstallType": "Zip",
-                    "InstallTypeArchiveFileNames": {
-                        "SIGIL v1.21.wad": "SIGIL_v1_21/SIGIL_v1_21.wad"
-                    }
+                    "Entries": [
+                        {
+                            "Files": [
+                                { "Name": "SIGIL v1.21.wad", "Path": "SIGIL_v1_21/SIGIL_v1_21.wad" }
+                            ]
+                        }
+                    ]
                 }
             }
         },
@@ -192,9 +251,13 @@
                 "1.0": {
                     "Url": "https://romero.com/s/SIGIL_II_V1_0.zip",
                     "InstallType": "Zip",
-                    "InstallTypeArchiveFileNames": {
-                        "SIGIL II v1.0.wad": "SIGIL_II_V1_0.WAD"
-                    }
+                    "Entries": [
+                        {
+                            "Files": [
+                                { "Name": "SIGIL II v1.0.wad", "Path": "SIGIL_II_V1_0.WAD" }
+                            ]
+                        }
+                    ]                   
                 }
             }
         },
@@ -204,26 +267,30 @@
             "Homepage": "https://www.moddb.com/mods/brutal-doom/addons/brutalized-doom-and-doom-ii",
             "Versions": {
                 "1.28a": {
+                    "Title": "Version 1.28a",
                     "Url": "https://www.moddb.com/addons/start/63294",
                     "UrlType": "ModDB",
                     "InstallType": "Zip",
-                    "InstallTypeArchiveFileNames": {
-                        "Maps of Chaos Standart v1.28a.wad": {
+                    "Entries": [
+                        {
                             "Name": "Maps of Chaos: Standart",
-                            "Title": "Version 1.28a",
-                            "Path": "mapsofchaos.wad"
+                            "Files": [
+                                { "Name": "Maps of Chaos Standart v1.28a.wad", "Path": "mapsofchaos.wad" }
+                            ]
                         },
-                        "Maps of Chaos Hardcore v1.28a.wad": {
+                        {
                             "Name": "Maps of Chaos: Hardcore",
-                            "Title": "Version 1.28a",
-                            "Path": "mapsofchaos-hc.wad"
+                            "Files": [
+                                { "Name": "Maps of Chaos Hardcore v1.28a.wad", "Path": "mapsofchaos-hc.wad" }
+                            ]
                         },
-                        "Maps of Chaos Overkill v1.28a.wad": {
+                        {
                             "Name": "Maps of Chaos: Overkill",
-                            "Title": "Version 1.28a",
-                            "Path": "mapsofchaos-ok.wad"
+                            "Files": [
+                                { "Name": "Maps of Chaos Overkill v1.28a.wad", "Path": "mapsofchaos-ok.wad" }
+                            ]
                         }
-                    }
+                    ]
                 }
             }
         }
