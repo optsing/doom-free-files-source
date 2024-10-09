@@ -16,9 +16,11 @@
             ],
             "Versions": {
                 "0.13.0": {
-                    "Url": "https://github.com/freedoom/freedoom/releases/download/v0.13.0/freedoom-0.13.0.zip",
-                    "InstallType": "Zip",
                     "Title": "Version 0.13.0",
+                    "Source": {
+                        "Url": "https://github.com/freedoom/freedoom/releases/download/v0.13.0/freedoom-0.13.0.zip",
+                        "Type": "Zip"
+                    },
                     "Entries": [
                         {
                             "Name": "Freedoom: Phase 1",
@@ -33,8 +35,11 @@
                     ]
                 },
                 "0.12.1": {
-                    "Url": "https://github.com/freedoom/freedoom/releases/download/v0.12.1/freedoom-0.12.1.zip",
-                    "InstallType": "Zip",
+                    "Title": "Version 0.12.1",
+                    "Source": {
+                        "Url": "https://github.com/freedoom/freedoom/releases/download/v0.12.1/freedoom-0.12.1.zip",
+                        "Type": "Zip"
+                    },
                     "Entries": [
                         {
                             "IWAD": { "Name": "Freedoom Phase 1 v0.12.1.wad", "Path": "freedoom-0.12.1/freedoom1.wad" }
@@ -52,8 +57,10 @@
             "Homepage": "https://github.com/Blasphemer/blasphemer",
             "Versions": {
                 "0.1.8": {
-                    "Url": "https://github.com/Blasphemer/blasphemer/releases/download/v0.1.8/blasphem-0.1.8.zip",
-                    "InstallType": "Zip",
+                    "Source": {
+                        "Url": "https://github.com/Blasphemer/blasphemer/releases/download/v0.1.8/blasphem-0.1.8.zip",
+                        "Type": "Zip"
+                    },
                     "Entries": [
                         {
                             "IWAD": { "Name": "Blasphemer v0.1.8.wad", "Path": "blasphem.wad" }
@@ -68,8 +75,10 @@
             "Homepage": "http://www.drnostromo.com/hacx",
             "Versions": {
                 "1.2": {
-                    "Url": "http://www.drnostromo.com/hacx/files/hacx12.zip",
-                    "InstallType": "Zip",
+                    "Source": {
+                        "Url": "http://www.drnostromo.com/hacx/files/hacx12.zip",
+                        "Type": "Zip"
+                    },
                     "Entries": [
                         {
                             "IWAD": { "Name": "HACX v1.2.WAD", "Path": "HACX.WAD" }
@@ -84,8 +93,10 @@
             "Homepage": "https://www.chexquest3.com",
             "Versions": {
                 "1.4": {
-                    "Url": "https://archive.org/download/ChexQuest3_1020/ChexQuest3.zip",
-                    "InstallType": "Zip",
+                    "Source": {
+                        "Url": "https://archive.org/download/ChexQuest3_1020/ChexQuest3.zip",
+                        "Type": "Zip"
+                    },
                     "Entries": [
                         {
                             "IWAD": { "Name": "Chex Quest 3 v1.4.wad", "Path": "chex3.wad" }
@@ -100,8 +111,10 @@
             "Homepage": "http://heroestospare.com/rabotik/harmony.php",
             "Versions": {
                 "1.1": {
-                    "Url": "http://www.evil-soft.com/Heretic/harmonyv1.1.zip",
-                    "InstallType": "Zip",
+                    "Source": {
+                        "Url": "http://www.evil-soft.com/Heretic/harmonyv1.1.zip",
+                        "Type": "Zip"
+                    },
                     "Entries": [
                         {
                             "IWAD": { "Name": "Harmony v1.1.wad", "Path": "harmony v1.1/harm1.wad" }
@@ -117,9 +130,11 @@
             "Homepage": "https://www.moddb.com/mods/recurring-nightmare/downloads/brutal-doom-hell-on-earth-starter-pack",
             "Versions": {
                 "20b": {
-                    "Url": "https://www.moddb.com/downloads/start/95669",
-                    "UrlType": "ModDB",
-                    "InstallType": "Zip",
+                    "Source": {
+                        "Url": "https://www.moddb.com/downloads/start/95669",
+                        "UrlType": "ModDB",
+                        "Type": "Zip"
+                    },
                     "Entries": [
                         {
                             "IWAD": { "Name": "BDHoESP freedoom v20b.wad", "Path": "Brutal Doom - Hell on Earth Starter Pack/freedoom.wad" },
@@ -143,9 +158,11 @@
             ],
             "Versions": {
                 "22b4": {
-                    "Url": "https://www.moddb.com/downloads/start/265147",
-                    "UrlType": "ModDB",
-                    "InstallType": "Zip",
+                    "Source": {
+                        "Url": "https://www.moddb.com/downloads/start/265147",
+                        "UrlType": "ModDB",
+                        "Type": "Zip"
+                    },
                     "Entries": [
                         {
                             "Files": [
@@ -155,9 +172,11 @@
                     ]
                 },
                 "21": {
-                    "Url": "https://www.moddb.com/downloads/start/95667",
-                    "UrlType": "ModDB",
-                    "InstallType": "RAR",
+                    "Source": {
+                        "Url": "https://www.moddb.com/downloads/start/95667",
+                        "UrlType": "ModDB",
+                        "Type": "RAR"
+                    },
                     "Entries": [
                         {
                             "Files": [
@@ -174,9 +193,11 @@
             "Homepage": "https://www.moddb.com/mods/brutal-voxel-doom",
             "Versions": {
                 "2.0": {
-                    "Url": "https://www.moddb.com/downloads/start/270638",
-                    "UrlType": "ModDB",
-                    "InstallType": "Zip",
+                    "Source": {
+                        "Url": "https://www.moddb.com/downloads/start/270638",
+                        "UrlType": "ModDB",
+                        "Type": "Zip"
+                    },
                     "Entries": [
                         {
                             "Files": [
@@ -193,9 +214,11 @@
             "Homepage": "https://www.moddb.com/mods/brutal-doom/downloads/doom-metal-soundtrack-mod-volume-5",
             "Versions": {
                 "Volume 5": {
-                    "Url": "https://www.moddb.com/downloads/start/179574",
-                    "UrlType": "ModDB",
-                    "InstallType": "Zip",
+                    "Source": {
+                        "Url": "https://www.moddb.com/downloads/start/179574",
+                        "UrlType": "ModDB",
+                        "Type": "Zip"
+                    },
                     "Entries": [
                         {
                             "Files": [
@@ -212,8 +235,10 @@
             "Homepage": "https://projectbrutality.com/",
             "Versions": {
                 "0.1.0A": {
-                    "Url": "https://github.com/pa1nki113r/Project_Brutality/archive/refs/tags/0.1.0A.zip",
-                    "InstallType": "AsIs",
+                    "Source": {
+                        "Url": "https://github.com/pa1nki113r/Project_Brutality/archive/refs/tags/0.1.0A.zip",
+                        "Type": "AsIs"
+                    },
                     "Title": "Version 0.1.0A",
                     "Entries": [
                         {
@@ -231,8 +256,10 @@
             "Homepage": "https://romero.com/sigil",
             "Versions": {
                 "1.21": {
-                    "Url": "https://romero.com/s/SIGIL_v1_21.zip",
-                    "InstallType": "Zip",
+                    "Source": {
+                        "Url": "https://romero.com/s/SIGIL_v1_21.zip",
+                        "Type": "Zip"
+                    },
                     "Entries": [
                         {
                             "Files": [
@@ -249,15 +276,17 @@
             "Homepage": "https://romero.com/sigil",
             "Versions": {
                 "1.0": {
-                    "Url": "https://romero.com/s/SIGIL_II_V1_0.zip",
-                    "InstallType": "Zip",
+                    "Source": {
+                        "Url": "https://romero.com/s/SIGIL_II_V1_0.zip",
+                        "Type": "Zip"
+                    },
                     "Entries": [
                         {
                             "Files": [
                                 { "Name": "SIGIL II v1.0.wad", "Path": "SIGIL_II_V1_0.WAD" }
                             ]
                         }
-                    ]                   
+                    ]
                 }
             }
         },
@@ -268,9 +297,11 @@
             "Versions": {
                 "1.28a": {
                     "Title": "Version 1.28a",
-                    "Url": "https://www.moddb.com/addons/start/63294",
-                    "UrlType": "ModDB",
-                    "InstallType": "Zip",
+                    "Source": {
+                        "Url": "https://www.moddb.com/addons/start/63294",
+                        "UrlType": "ModDB",
+                        "Type": "Zip"
+                    },
                     "Entries": [
                         {
                             "Name": "Maps of Chaos: Standart",
