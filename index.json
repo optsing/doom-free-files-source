@@ -188,6 +188,30 @@
             }
         },
         {
+            "Name": "Fallout: Vault 666",
+            "Description": "War. War never changes. And neither does-\n\nTHE DOOM DWELLER- you were chosen by THE OVERSEER to enter VAULT 666 and locate THE WATER CHIP. If you fail, your home, your friends, and your PET BUNNY will perish.\n\nTraveling the Wasteland, your investigations lead you to a CAVE ENTRANCE. But what's this? No vault dwellers in sight, but more mutants than you can shake a boomstick at! It stinks like rotten meat!\n\nSo, pump that POWER FIST, rev that RIPPER, and unload your 10MM, right into the face of HELL! Welcome to VAULT 666!\n\nDeath in the Vault is about to change!",
+            "Homepage": "https://www.moddb.com/mods/fallout-vault-666",
+            "Images": [
+                "https://media.moddb.com/images/members/5/4837/4836539/profile/Title_copy_7.2.png"
+            ],
+            "Versions": {
+                "1.12": {
+                    "Source": {
+                        "Url": "https://www.moddb.com/downloads/start/283934",
+                        "UrlType": "ModDB",
+                        "Type": "RAR"
+                    },
+                    "Entries": [
+                        {
+                            "Files": [
+                                { "Name": "Fallout Vault 666 v1.12.wad", "Path": "VAULT666_v1.12.wad" }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        {
             "Name": "Brutal Voxel Doom",
             "Description": "Taking Cheello's famous Voxel Doom and putting some brutality into it, brutal voxel doom adds headshots, tons of gore, new monsters and weapons to DooM, all in the form of voxels.",
             "Homepage": "https://www.moddb.com/mods/brutal-voxel-doom",
