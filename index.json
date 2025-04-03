@@ -212,6 +212,30 @@
             }
         },
         {
+            "Name": "Corruption Cards",
+            "Description": "Corruption Cards is a gameplay mod for Doom (and others!) which presents the player with three random cards each level. These cards effect the gameplay in different ways, some more subtle than others. The effects range from changing monster behavior, adding new mechanics, adding extra hazards and much more! In the standard mode, you will be offered a permanent card every 3 levels. This card will be locked in for the rest of the game, meaning you will have to live with your choice until the game is over! There are now over 200 unique cards, and more are generated as the game is played. Every run you will be offered different cards, which leads to an ever changing gameplay experience that is dictated by your card choices!\n\nCorruption Cards works with all sorts of mods, and will even generate custom cards for any new monsters it detects! Give it a try with your favorites to spice up the gameplay and add a little extra challenge.\n\nRequires GZDoom 4.4.0 or higher.",
+            "Homepage": "https://www.moddb.com/mods/corruption-cards",
+            "Images": [
+                "https://media.moddb.com/cache/images/mods/1/51/50363/thumb_620x2000/4.png"
+            ],
+            "Versions": {
+                "6.0": {
+                    "Source": {
+                        "Url": "https://www.moddb.com/downloads/start/270713",
+                        "UrlType": "ModDB",
+                        "Type": "Zip"
+                    },
+                    "Entries": [
+                        {
+                            "Files": [
+                                { "Name": "Corruption Cards v6.0.pk3", "Path": "CorruptionCards-v6.0c.pk3" }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        {
             "Name": "Brutal Voxel Doom",
             "Description": "Taking Cheello's famous Voxel Doom and putting some brutality into it, brutal voxel doom adds headshots, tons of gore, new monsters and weapons to DooM, all in the form of voxels.",
             "Homepage": "https://www.moddb.com/mods/brutal-voxel-doom",
