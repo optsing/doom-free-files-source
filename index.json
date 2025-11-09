@@ -376,10 +376,21 @@
     ],
     "Ports": [
         {
+            "Name": "UZDoom",
+            "Homepage": "https://zdoom.org/index",
+            "Description": "UZDoom is a modder-friendly OpenGL and Vulkan source port based on the DOOM engine",
+            "Arch": "x64",
+            "Executable": "uzdoom.exe",
+            "Versions": {
+                "4.14.3-rc1": "https://github.com/UZDoom/UZDoom/releases/download/4.14.3-rc1/Windows-UZDoom-4.14.3-rc1-x86_64.zip"
+            }
+        },
+        {
             "Name": "GZDoom",
             "Homepage": "https://zdoom.org/index",
             "Description": "GZDoom is a modder-friendly OpenGL and Vulkan source port based on the DOOM engine",
             "Arch": "x64",
+            "Executable": "gzdoom.exe",
             "Versions": {
                 "4.14.2": "https://github.com/ZDoom/gzdoom/releases/download/g4.14.2/gzdoom-4-14-2-windows.zip",
                 "4.14.1": "https://github.com/ZDoom/gzdoom/releases/download/g4.14.1/gzdoom-4-14-1-windows.zip",
@@ -453,6 +464,7 @@
             "Homepage": "https://zdoom.org/index",
             "Description": "GZDoom is a modder-friendly OpenGL and Vulkan source port based on the DOOM engine",
             "Arch": "x86",
+            "Executable": "gzdoom.exe",
             "Versions": {
                 "4.7.1": "https://github.com/ZDoom/gzdoom/releases/download/g4.7.1/gzdoom-4-7-1-Windows-32bit.zip",
                 "4.7.0": "https://github.com/ZDoom/gzdoom/releases/download/g4.7.0/gzdoom-4-7-0-Windows-32bit.zip",
@@ -508,3 +520,4 @@
         }
     ]
 }
+
